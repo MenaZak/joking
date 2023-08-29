@@ -1,0 +1,20 @@
+﻿<Window x:Class="joking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:joking"
+        mc:Ignorable="d"
+       Title="Prank App" Height="400" Width="600">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="هل أنت حمار؟" FontSize="24" Margin="30"/>
+            <Label Content="المفترض صورة حمار" Width="113" RenderTransformOrigin="0.512,-6.548"/>
+            <Button Name="btnYes" Content="نعم" Width="100" Height="30" Margin="0 10 10 0" Click="BtnYes_Click"/>
+            <Button Name="btnNo" Content="لا" Width="100" Height="30" Margin="0 10 10 0" Click="BtnNo_Click"/>
+           
+
+        </StackPanel>
+    </Grid>
+</Window>
